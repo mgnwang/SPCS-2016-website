@@ -1,0 +1,63 @@
+/*Item Hover*/
+.navbar-custom .navbar-inner .nav li a:hover
+{
+	color: white;
+	background: #555555;
+}
+
+/*Header*/
+.navbar-custom .navbar-inner .navbar-header a
+{
+	color: white;
+	background: url("../img/GradientHome.png");
+	font-size:1em;
+	line-height: 2em;
+    height: 2em;
+    padding-top: 0px;
+    background-size:100% 100%;
+}
+
+/*Header Hover*/
+.navbar-custom .navbar-inner .navbar-header a:hover
+{
+	background: url("../img/GradientHomeLight.png");
+	background-size:100% 100%;
+}
+
+
+/*Navbar General*/
+.navbar-custom
+{
+	border:0px;
+	border-radius: 0;
+	border-color:transparent;
+	padding:0px;
+	font-size:2em;
+	font-family:Lobster;
+
+	/*Shadow*/
+	-webkit-box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
+}
+
+/*Items*/
+.navbar-nav li a
+{
+    line-height: 2em;
+    height: 2em;
+    padding-top: 0px;
+}
+
+/*Inner Padding*/
+.navbar-inner
+{
+	padding-right:0px;
+}
+
+/*Header Hover*/
+.navbar-custom .navbar-inner .navbar-header .navbar-nohov:hover
+{
+	background: url("../img/GradientHome.png");
+	background-size:100% 100%;
+}

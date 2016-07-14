@@ -1,0 +1,25 @@
+{{>NavBar}}
+<body data-spy="scroll" data-target=".boundbox" style="background-image: url(img/lol.png); background-size: cover;">
+<br>
+<div class= "boundbox rbpad">
+    <div style="padding:2%">
+
+        <h1>
+             Completed Tasks<div style="font-size:0.5em;"></div>
+        </h1>
+ 
+        <br>
+
+        <div class="listeroo">
+        {{#each tasklist.task}}
+            {{#if done}}
+            <div style="margin-bottom: .7%;color:lightgrey;" class="Task-round important completed">
+                <h3> <a href="/doneTask?taski={{@index}}" style="padding-left:2%"></a> {{text}} </h3>
+            </div>
+            {{/if}}
+        {{/each}}
+        </div>
+
+    </div>
+</div>	
+</body>

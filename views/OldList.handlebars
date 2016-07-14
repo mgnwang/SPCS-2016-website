@@ -1,0 +1,22 @@
+<body style="background-image: url(img/lol.png); background-size: cover;">
+<br>
+<div class= "boundbox rbpad">
+    <div class="container">
+
+        <h1>
+             Task List      
+        </h1>
+
+        <br>
+
+        <div class="listeroo">
+        {{#each tasklist.task}}
+            <div class="container Task-round important-{{priority}}">
+                <h3> <span class="glyphicon glyphicon-ok"></span> {{text}} </h3>
+            </div>
+        {{/each}}
+        </div>
+
+    </div>
+</div>	
+</body>

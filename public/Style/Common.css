@@ -1,0 +1,169 @@
+
+/*Font*/
+@font-face
+{
+	font-family:Lobster;
+	src:url("../Font/Lobster_and_Cabin/lobster/Lobster-Regular.ttf")
+}
+
+@font-face
+{
+	font-family:Cabin;
+	src:url("../Font/Lobster_and_Cabin/cabin/Cabin-Regular.ttf");
+}
+
+@font-face
+{
+	font-family:Cabin;
+	src:url("../Font/Lobster_and_Cabin/cabin/Cabin-Bold.ttf");
+	font-weight:bold;
+}
+
+@font-face
+{
+	font-family:Cabin;
+	src:url("../Font/Lobster_and_Cabin/cabin/Cabin-Italic.ttf");
+	font-style:italic;
+}
+
+body, h2, h3, h4, h5, h6
+{
+	font-family:Cabin;
+	color:white;
+}
+
+h1
+{
+	font-family:Lobster;
+}
+
+/*Calendar*/
+.Calendar td
+{
+	padding:4.8%;
+}
+
+/*BoundBox*/
+.boundbox
+{
+	border: 5px solid white;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 15px;
+    background-color:#111111;
+    opacity: 0.8;
+    overflow: auto;
+}
+
+.rbpad
+{
+	padding-right:2%;
+    padding-bottom:2%;
+}
+
+.accountbox
+{
+	border: 5px solid white;
+    padding-bottom: 23px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #111111;
+    width: 450px;
+    opacity: 0.8;
+    border-radius: 15px;
+}
+
+.submit
+{
+    font-size: 12px;
+    padding-right: 60px;
+}
+
+/*List*/
+.listeroo
+{
+    background-color:#111111;
+    margin:auto;
+}
+
+.Task-round
+{
+	border: 4px solid white;
+    border-radius: 10px;
+    background-color:#ff3385;
+}
+
+.Task
+{
+    border: 4px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.Task-top
+{
+    border: 4px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.Task-bot
+{
+    border: 4px solid white;
+    border-top: 2px solid white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.important-0
+{
+    background-color:#003366;
+}
+
+.important-1
+{
+    background-color:#8800cc;
+}
+
+.important-2
+{
+    background-color:#ff3385;
+}
+
+.completed
+{
+    background-color:#777777;
+}
+
+.listeroo .glyphicon
+{
+    border: 4px solid white;
+    padding:.5%;
+    border-radius:100%;
+    color: white;
+}
+
+.listeroo .glyphicon:hover
+{
+    color:#66ffb3;
+    border-color:#66ffb3;
+    text-decoration: none;
+    background-color:#009900;
+}
+
+.button
+{
+    color:black;
+    font-size: 0.7em;
+    font-family: Lobster;
+}
+
+.boundbox1
+{
+    border: 5px solid white;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 15px;
+    background-color:#111111;
+    opacity: 0.8;
+    padding-right: 5%;
+}

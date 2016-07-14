@@ -1,0 +1,47 @@
+{{>NavBar}}
+<body style="background-image:url(../img/addTask.jpg);background-size:cover">
+	<center>
+		<div class="container">
+			<div class="accountbox" style="padding-bottom:6%">
+				<h1>
+					Add Task
+				</h1>
+
+				<form name= "myForm" method="post" action="/posttask" class="form-horizontal" role="form" style="font-size:11.5px; text-align: center;">
+
+				 	<div class="form-group">
+					    <div class="form-group">
+					      	<label for="comment">Add:</label>
+					      	<textarea name="tasktext" class="form-control" rows="5" id="comment" required></textarea>
+					    </div>
+	           		</div>
+
+	           		<h6>Priority Level:</h6>
+				   
+			    	<label class="radio-inline">
+			      		<input checked="checked" type="radio" name="imp" value=0 required>!
+			   		</label>
+
+			    	<label class="radio-inline">
+			      		<input type="radio" name="imp" value=1>!!
+			    	</label>
+
+			    	<label class="radio-inline">
+			      		<input type="radio" name="imp" value=2>!!!
+			    	</label>
+				   
+				    <br>
+				    <br>
+
+				    <center>
+						<div class="form-group" style="padding-right:14.5%;">
+		                    <div class="col-sm-offset-2 col-sm-10" >
+		                        <button type="submit" class="btn btn-info">Submit</button>
+                			</div>
+            			</div>
+        			</center>
+				</form>				
+			</div>
+		</div>
+	</center>
+</body>

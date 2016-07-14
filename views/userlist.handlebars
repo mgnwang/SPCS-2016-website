@@ -1,0 +1,18 @@
+<body style="background-image: url(img/Home.jpg); background-size: cover;">
+    <br>
+    <div class= "boundbox rbpad">
+        <div class="container">
+
+            <h1>
+                UserList      
+            </h1>
+
+            <ul>
+                {{#each userlist}}
+                <li>{{userName}}, who has password {{passWord}}</li>
+                {{/each}}
+            </ul>
+
+        </div>
+    </div>
+</body>

@@ -1,0 +1,32 @@
+{{>NavBar}}
+<body style="background-image: url(img/lol.png); background-size: cover;">
+<br>
+<div class= "boundbox rbpad">
+    <div style="padding:2%">
+
+        <h1>
+             Task List <div style="font-size:0.5em;">(Click the checkmark to complete task)</div>
+            <form action="/addtask">
+                <div class="button">
+                    <br>
+                    <button type="submit" > + Add Task </button> 
+                <div>
+            </form>
+        </h1>
+
+ 
+        <br>
+
+        <div class="listeroo">
+        {{#each tasklist.task}}
+            {{#unless done}}
+            <div style="margin-bottom: .7%" class="Task-round important-{{priority}}">
+                <h3> <a href="/doneTask?taski={{@index}}" class="glyphicon glyphicon-ok"></a> {{text}} </h3>
+            </div>
+            {{/unless}}
+        {{/each}}
+        </div>
+
+    </div>
+</div>	
+</body>
