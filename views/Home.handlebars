@@ -1,28 +1,3 @@
-{{>NavBar}}
-<body style="background-image: url(img/Home.jpg); background-size: cover;">
-    <br>
-    <div class= "boundbox rbpad" style="padding:2%">
-        <div>
-
-            <h1>
-                 Home      
-            </h1>
-
-            <h2>Main Task</h2>
-
-            <div class="listeroo">
-                {{#each tasklist.task}}
-                    {{#if check}}
-                            <div class="Task-round important-{{priority}}">
-                                <h3> <a href="/doneTask?taski={{@index}}" class="glyphicon glyphicon-ok"></a> {{text}} </h3>
-                            </div>
-                    {{/if}}
-                {{/each}}
-            </div>
-
-            <h2> Total Tasks Active</h2>
-                <h4 style="font-size: 3em;"> {{active}} </h4>
-
-        </div>
-    </div>
-</body>
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a15e054d4f14b87d6c84f6aec5b5e438d8f7817628d204e2a07ab51fb447f71
+size 844

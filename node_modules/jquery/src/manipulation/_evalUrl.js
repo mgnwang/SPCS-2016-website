@@ -1,23 +1,3 @@
-define( [
-	"../ajax"
-], function( jQuery ) {
-
-"use strict";
-
-jQuery._evalUrl = function( url ) {
-	return jQuery.ajax( {
-		url: url,
-
-		// Make this explicit, since user can override this through ajaxSetup (#11264)
-		type: "GET",
-		dataType: "script",
-		cache: true,
-		async: false,
-		global: false,
-		"throws": true
-	} );
-};
-
-return jQuery._evalUrl;
-
-} );
+version https://git-lfs.github.com/spec/v1
+oid sha256:632d3e3ebf965209ad544fb2d44df9a76f46512a6b0a09942e2fbda7c23293c7
+size 356
